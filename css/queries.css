@@ -1,0 +1,220 @@
+@media (max-width: 800px) {
+  .nav-bar-semantic {
+    position: absolute;
+    right: 0;
+    top: 7rem;
+    background-color: black;
+    width: 100%;
+    padding: 2rem;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+
+  .nav-bar nav ul {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .nav-bar nav ul li a {
+    color: #fff4e6;
+    font-weight: 600;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+/* Media Queries for less than 600px */
+@media (max-width: 551px) {
+  .all-products-products-div .featured-product-box {
+    width: 70%;
+    justify-self: center;
+  }
+
+  .all-products-sort-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+    margin-bottom: 9.6rem;
+  }
+
+  .all-products-sort-box h2 {
+    font-size: 6.6rem;
+  }
+
+  .all-products-sort-box select {
+    padding: 2.3rem;
+    border: 1px solid #f76707;
+    font-size: 3.2rem;
+    cursor: pointer;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5 {
+    grid-template-columns: 1fr;
+  }
+
+  html {
+    font-size: 8px;
+  }
+
+  .txt-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+
+  .features {
+    row-gap: 3.2rem;
+  }
+
+  .featured-product-box {
+    row-gap: 15.9rem;
+  }
+
+  .product-box {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
+  }
+
+  .offer-txt-box {
+    text-align: center;
+  }
+
+  .offer-section {
+    row-gap: 3.2rem;
+  }
+
+  .offer-img-box img {
+    width: 60%;
+  }
+
+  .brands-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .footer-section {
+    grid-template-columns: 1fr;
+    row-gap: 6.4rem;
+  }
+
+  .footer-copy-txt {
+    grid-column: 1 / 1;
+  }
+
+  .footer-section hr {
+    grid-column: 1 / 1;
+  }
+
+  .footer-section h3 {
+    color: #fff4e6;
+    font-size: 2.7rem;
+    font-weight: 700;
+  }
+
+  .footer-col-1 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-col-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-section p {
+    font-size: 2.2rem;
+    line-height: 1.6;
+  }
+
+  .footer-col-3 li,
+  .footer-col-4 li {
+    font-size: 2.2rem;
+    line-height: 1.6;
+  }
+
+  .brand-img-box img {
+    width: 159.2%;
+  }
+
+  .testimonial-section {
+    row-gap: 6.4rem;
+  }
+
+  .txt-div p {
+    font-size: 2.5rem;
+  }
+
+  .product-stats .product-name {
+    font-size: 3.5rem;
+    margin-bottom: 1.6rem;
+    margin-top: 1.6rem;
+  }
+
+  .product-stars ion-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .product-stats p {
+    font-size: 3.1rem;
+  }
+
+  .product-stats {
+    padding: 2rem;
+  }
+
+  .offer-txt-box a {
+    margin: 0 auto;
+    margin-top: 3.2rem;
+    display: block;
+    width: 50%;
+  }
+
+  .offer-txt-box p {
+    font-size: 2.2rem;
+  }
+
+  .offer-txt-box h2 {
+    font-size: 5.8rem;
+  }
+
+  .offer-txt-box small {
+    color: #555;
+    line-height: 1.6;
+    font-size: 2.3rem;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 700) {
+  .all-products-featured-product-box.col-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 1000px) {
+  html {
+    font-size: 7px;
+  }
+
+  .txt-div h1 br {
+    display: none;
+  }
+
+  .col-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+}

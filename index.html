@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Store</title>
+
+    <!-- Font Open Sans Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/queries.css">
+  </head>
+  <body>
+    <div class="first-page-box">
+      <header class="header-section container">
+        <div class="header-icon">
+          <img src="images/logo.png" alt="website logo" width="125px" />
+        </div>
+        <div class="nav-bar">
+          <nav id="MenuItems" class="nav-bar-semantic">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Account</a></li>
+            </ul>
+          </nav>
+          <img style="width: 30px" src="images/cart.png" alt="cart image" />
+          <img class="menu-toggle" style="width: 30px;" src="images/menu.png" alt="" onclick="menutoggle()">
+        </div>
+      </header>
+
+
+      <section class="hero_section container col-2">
+
+        
+
+        <div class="hero-txt-box">
+          <div class="txt-div">
+            <h1>
+              Give Your Workout <br />
+              A New Style
+            </h1>
+            <p>
+              Success isn't always about greatness.It's about
+              consistensy.Consistent hardwork gains success.Greatness will come
+            </p>
+            <div>
+            <a href="#">Explore Now &#8594;</a>
+          </div>
+          </div>
+        </div>
+        <div class="hero-img-box">
+          <img
+            class="hero-img"
+            src="images/image1.png"
+            alt="image of two soccer players"
+          />
+        </div>
+      </section>
+    </div>
+
+    <main class="main-section">
+      <section class="features col-3 container-2">
+        <div class="feature-img-box">
+          <img src="images/category-1.jpg" alt="A model with orange shoes" />
+        </div>
+
+        <div class="feature-img-box">
+          <img
+            src="images/category-2.jpg"
+            alt="A model with a Addidass shoes"
+          />
+        </div>
+
+        <div class="feature-img-box">
+          <img
+            src="images/category-3.jpg"
+            alt="A women with white sport outfit"
+          />
+        </div>
+      </section>
+
+      <section class="featured-products container-2">
+        <h2 class="title">Featured Products</h2>
+
+        <div class="featured-product-box col-4">
+          <div class="product-box">
+            <img
+              src="images/product-1.jpg"
+              alt="image of a male model in red clothes"
+            />
+            <div class="product-stats">
+              <p class="product-name">Red Printed T-Shirt</p>
+              <div class="product-stars">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </div>
+              <p>&#36;50.00</p>
+            </div>
+          </div>
+
+          <div class="product-box">
+            <img
+              src="images/product-2.jpg"
+              alt="image of a male model in red clothes"
+            />
+            <div class="product-stats">
+              <p class="product-name">Red Printed T-Shirt</p>
+              <div class="product-stars">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+              </div>
+              <p>&#36;50.00</p>
+            </div>
+          </div>
+
+          <div class="product-box">
+            <img
+              src="images/product-3.jpg"
+              alt="image of a male model in red clothes"
+            />
+            <div class="product-stats">
+              <p class="product-name">Red Printed T-Shirt</p>
+              <div class="product-stars">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </div>
+              <p>&#36;50.00</p>
+            </div>
+          </div>
+
+          <div class="product-box">
+            <img
+              src="images/product-4.jpg"
+              alt="image of a male model in red clothes"
+            />
+            <div class="product-stats">
+              <p class="product-name">Red Printed T-Shirt</p>
+              <div class="product-stars">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+              </div>
+              <p>&#36;50.00</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Latest Products -->
+        <h2 class="title latest-products-title">Latest Products</h2>
+
+        <div class="featured-product-box col-4">
+        <div class="product-box">
+          <img
+            src="images/product-5.jpg"
+            alt="image of a male model in red clothes"
+          />
+          <div class="product-stats">
+            <p class="product-name">Red Printed T-Shirt</p>
+            <div class="product-stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+            <p>&#36;50.00</p>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <img
+            src="images/product-6.jpg"
+            alt="image of a male model in red clothes"
+          />
+          <div class="product-stats">
+            <p class="product-name">Red Printed T-Shirt</p>
+            <div class="product-stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+            <p>&#36;50.00</p>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <img
+            src="images/product-7.jpg"
+            alt="image of a male model in red clothes"
+          />
+          <div class="product-stats">
+            <p class="product-name">Red Printed T-Shirt</p>
+            <div class="product-stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+            <p>&#36;50.00</p>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <img
+            src="images/product-8.jpg"
+            alt="image of a male model in red clothes"
+          />
+          <div class="product-stats">
+            <p class="product-name">Red Printed T-Shirt</p>
+            <div class="product-stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+            <p>&#36;50.00</p>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <img
+            src="images/product-9.jpg"
+            alt="image of a male model in red clothes"
+          />
+          <div class="product-stats">
+            <p class="product-name">Red Printed T-Shirt</p>
+            <div class="product-stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+            <p>&#36;50.00</p>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <img
+            src="images/product-10.jpg"
+            alt="image of a male model in red clothes"
+          />
+          <div class="product-stats">
+            <p class="product-name">Red Printed T-Shirt</p>
+            <div class="product-stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+            <p>&#36;50.00</p>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <img
+            src="images/product-11.jpg"
+            alt="image of a male model in red clothes"
+          />
+          <div class="product-stats">
+            <p class="product-name">Red Printed T-Shirt</p>
+            <div class="product-stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+            <p>&#36;50.00</p>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <img
+            src="images/product-12.jpg"
+            alt="image of a male model in red clothes"
+          />
+          <div class="product-stats">
+            <p class="product-name">Red Printed T-Shirt</p>
+            <div class="product-stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+            <p>&#36;50.00</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="offer-section-box">
+      <section class="offer-section col-2 container-2">
+        <div class="offer-img-box">
+          <img src="images/exclusive.png" alt="image of an orange watch">
+        </div>
+        <div class="offer-txt-box">
+          <div>
+          <p>Exculsivly Available on Red Store</p>
+          <h2>Smart Band 4</h2>
+          <small>The Mi Smart Band 4 features 39.9% larger (than Mi Brand 3) AMOLED color full-touch display with adjustable brightness.so everything is clear as can be</small>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+        
+        
+      </div>
+      </section>
+    </div>
+
+    <section class="testimonial-section col-3 container-2">
+      <div class="testimonial-box">
+        <p class="testimonial-quote-symbol">&#x275D</p>
+        <p class="testimonial-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ea omnis labore quam facere odit. Non nostrum est corporis rerum doloremque maxime consequatur maiores laborum commodi? Sapiente animi suscipit error.</p>
+        <div class="testimonial-stars">
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+        </div>
+        <img src="images/user-1.png" alt="picture of a female user">
+        <h3>Masoumeh Behjat</h3>
+      </div>
+
+      <div class="testimonial-box">
+        <p class="testimonial-quote-symbol">&#x275D</p>
+        <p class="testimonial-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ea omnis labore quam facere odit. Non nostrum est corporis rerum doloremque maxime consequatur maiores laborum commodi? Sapiente animi suscipit error.</p>
+        <div class="testimonial-stars">
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+        </div>
+        <img src="images/user-2.png" alt="picture of a female user">
+        <h3>Hossein Amiri</h3>
+      </div>
+
+      <div class="testimonial-box">
+        <p class="testimonial-quote-symbol">&#x275D</p>
+        <p class="testimonial-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ea omnis labore quam facere odit. Non nostrum est corporis rerum doloremque maxime consequatur maiores laborum commodi? Sapiente animi suscipit error.</p>
+        <div class="testimonial-stars">
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+        </div>
+        <img src="images/user-3.png" alt="picture of a female user">
+        <h3>Leila Mansouri</h3>
+      </div>
+    </section>
+
+    <section class="brands-section container-2 col-5">
+      <div class="brand-img-box">
+        <img src="images/logo-coca-cola.png" alt="coca cola logo">
+      </div>
+
+      <div class="brand-img-box">
+        <img src="images/logo-godrej.png" alt="godrej logo">
+      </div>
+
+      <div class="brand-img-box">
+        <img src="images/logo-oppo.png" alt="oppo logo">
+      </div>
+
+      <div class="brand-img-box">
+        <img src="images/logo-paypal.png" alt="paypal logo">
+      </div>
+
+      <div class="brand-img-box">
+        <img src="images/logo-philips.png" alt="philips logo">
+      </div>
+
+    </section>
+
+    </main>
+
+    <div class="footer-box">
+    <footer class="footer-section container">
+      <div class="footer-col-1">
+        <h3>Download Out App</h3>
+        <p>Download App for Android and ios mobile phone.</p>
+        <div class="footer-app-box">
+          <img src="images/app-store.png" alt="">
+          <img src="images/play-store.png" alt="">
+        </div>
+      </div>
+
+      <div class="footer-col-2">
+        <img src="images/logo-white.png" alt="">
+        <p>Our Purpose is Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupans</li>
+          <li>Blog post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+      <hr>
+      <p class="footer-copy-txt">&copy;Copyright 2025 - Amir Ansari</p>
+    </footer>
+  </div>
+    <!-- ion icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- js for toggle menu -->
+     <script>
+      var menuItems = document.getElementById("MenuItems")
+      menuItems.style.maxHeight = "0px";
+      menuItems.style.padding = "0px";
+      
+      function menutoggle() {
+        
+        if (menuItems.style.maxHeight == "0px") {
+          menuItems.style.maxHeight = "300px";
+          menuItems.style.padding = "20px";
+        } 
+        else {
+          menuItems.style.maxHeight = "0px";
+          menuItems.style.padding = "0px";
+        }
+      }
+     </script>
+  </body>
+</html>
