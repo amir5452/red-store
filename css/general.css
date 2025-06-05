@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 
 - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
@@ -103,3 +104,110 @@ body {
 .btn:hover {
   background-color: #de5d06;
 }
+=======
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- White Space
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+-- Colors
+Primary color: #f76707
+Shades: #de5d06, #c65206
+
+linear-gradient: #ffafbd
+
+Grays:
+#333
+#555
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* General items */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.container-2 {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.col-5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* Reusable Title  */
+.title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 9.6rem;
+  margin-bottom: 9.6rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  width: 12rem;
+  height: 0.5rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #f76707;
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Reusable button */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  background-color: #f76707;
+  color: #fff4e6;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #de5d06;
+}
+>>>>>>> 7de876718a5206019a7dda6cf016061a070d52ed
